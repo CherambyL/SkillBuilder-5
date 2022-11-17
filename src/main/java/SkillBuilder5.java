@@ -19,7 +19,6 @@ public class SkillBuilder5
      */
     public static double[] prefixAverage(double[] data)
     {
-        //TODO: replace this line with your code.
         double l = 0;
         double[] newdData = new double[data.length];
         int counter = 0;
@@ -42,7 +41,6 @@ public class SkillBuilder5
      */
     public static int  indexOf(int searchValue, int[] anArray)
     {
-        //TODO: replace this line with your code.
         for(int x = 0; x < anArray.length; x++){
             if (anArray[x] == searchValue){
                 return x;
@@ -61,7 +59,6 @@ public class SkillBuilder5
      */
     public static int  indexOf(String s, String[] anArray)
     {
-        //TODO: replace this line with your code.
         for(int y = 0; y < anArray.length; y++ ){
             if(anArray[y]== s){
                 return y;
